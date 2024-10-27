@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers votre fichier CSS -->
+</head>
+<body>
+    <h1>Liste des Chargeurs</h1>
+    <input type="text" id="search" placeholder="Rechercher par chargeur..." oninput="searchTable()">
+    <table>
+        <thead>
+            <tr>
+                <th>Chargeur</th>
+                <th>Téléphone</th>
+                <th>Localisation</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Les données seront insérées ici par JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script> <!-- Lien vers votre fichier JavaScript -->
+</body>
+</html>
